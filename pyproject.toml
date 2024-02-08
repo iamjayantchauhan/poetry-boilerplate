@@ -6,16 +6,19 @@ authors = ["Jayant Chauhan"]
 
 [tool.poetry.dependencies]
 python = "3.12.*"
+pre-commit = "^3.6.0"
+python-dotenv = "^1.0.1"
 
 [tool.poetry.group.dev.dependencies]
-black = "*"
-flake8 = "*"
-isort = "*"
-rich = "*"
-pre-commit = "*"
+nbstripout = "^0.7.1"
+pydocstyle = "^6.3.0"
+rich = "^13.7.0"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+black = "^24.1.1"
 
 [tool.poetry.group.docs.dependencies]
-pydocstyle = {extras = ["toml"], version = "*"}
+pydocstyle = { extras = ["toml"], version = "*" }
 
 [tool.poetry.group.test.dependencies]
 pytest = "*"

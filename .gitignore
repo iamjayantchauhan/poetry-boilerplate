@@ -131,3 +131,8 @@ debug.log
 # Files
 .DS_Store
 poetry.lock
+
+.idea
+
+# ignore ENV file
+.env
